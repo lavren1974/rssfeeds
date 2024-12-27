@@ -6,6 +6,8 @@ Clone - https://github.com/lavren1974/rssfeeds - 20241227
 go mod tidy
 go mod vendor
 go build ./cmd/rssfeeds
+
+rssfeeds -db data/rssfeeds.db
 ```
 
 ## windows
