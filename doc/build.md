@@ -2,7 +2,7 @@
 
 Install `Go >= 1.17` and `GCC`. Get the source code:
 
-    git clone https://github.com/nkanaev/yarr.git
+    git clone https://github.com/lavren1974/rssfeeds.git
 
 Then run one of the corresponding commands:
 

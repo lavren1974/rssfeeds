@@ -1,4 +1,22 @@
-# yarr
+# RssFeeds
+
+Clone - https://github.com/lavren1974/rssfeeds - 20241227
+
+```
+go mod tidy
+go mod vendor
+go build ./cmd/rssfeeds
+```
+
+## windows
+
+TDM-GCC-64
+
+`rssfeeds -db data/rssfeeds.db`
+
+`http://127.0.0.1:7070`
+
+---
 
 **yarr** (yet another rss reader) is a web-based feed aggregator which can be used both
 as a desktop application and a personal self-hosted server.
@@ -10,7 +28,7 @@ The app is a single binary with an embedded database (SQLite).
 ## usage
 
 The latest prebuilt binaries for Linux/MacOS/Windows AMD64 are available
-[here](https://github.com/nkanaev/yarr/releases/latest). Installation instructions:
+[here](https://github.com/lavren1974/rssfeeds/releases/latest). Installation instructions:
 
 * MacOS
 

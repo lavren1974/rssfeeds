@@ -11,17 +11,17 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/nkanaev/yarr/src/assets"
-	"github.com/nkanaev/yarr/src/content/htmlutil"
-	"github.com/nkanaev/yarr/src/content/readability"
-	"github.com/nkanaev/yarr/src/content/sanitizer"
-	"github.com/nkanaev/yarr/src/content/silo"
-	"github.com/nkanaev/yarr/src/server/auth"
-	"github.com/nkanaev/yarr/src/server/gzip"
-	"github.com/nkanaev/yarr/src/server/opml"
-	"github.com/nkanaev/yarr/src/server/router"
-	"github.com/nkanaev/yarr/src/storage"
-	"github.com/nkanaev/yarr/src/worker"
+	"github.com/lavren1974/rssfeeds/src/assets"
+	"github.com/lavren1974/rssfeeds/src/content/htmlutil"
+	"github.com/lavren1974/rssfeeds/src/content/readability"
+	"github.com/lavren1974/rssfeeds/src/content/sanitizer"
+	"github.com/lavren1974/rssfeeds/src/content/silo"
+	"github.com/lavren1974/rssfeeds/src/server/auth"
+	"github.com/lavren1974/rssfeeds/src/server/gzip"
+	"github.com/lavren1974/rssfeeds/src/server/opml"
+	"github.com/lavren1974/rssfeeds/src/server/router"
+	"github.com/lavren1974/rssfeeds/src/storage"
+	"github.com/lavren1974/rssfeeds/src/worker"
 )
 
 func (s *Server) handler() http.Handler {

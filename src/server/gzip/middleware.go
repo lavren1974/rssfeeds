@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/nkanaev/yarr/src/server/router"
+	"github.com/lavren1974/rssfeeds/src/server/router"
 )
 
 type gzipResponseWriter struct {
